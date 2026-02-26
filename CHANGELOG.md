@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
+* initial commit ([7b54313](https://github.com/BeefreeSDK/angular-email-builder/commit/7b543138569f0bbce644004db284ad98cb7f6df6))
+
+## 1.1.0 (2026-02-26)
+
+
+### Features
+
 * initial commit ([95664b8](https://github.com/BeefreeSDK/angular-email-builder/commit/95664b828a711e487861304ee690e67e56485248))
 
 ## 1.1.0 (2026-02-26)

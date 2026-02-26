@@ -1,6 +1,6 @@
 {
   "name": "@beefree.io/angular-email-builder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Angular components and service for the Beefree SDK — drag-and-drop email, page, and popup builder with collaborative editing",
   "keywords": [
     "angular",
