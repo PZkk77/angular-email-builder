@@ -1,0 +1,52 @@
+<main class="main">
+  <header>
+    <div class="left-side">
+      <img src="/logo.svg" height="40" alt="Beefree SDK" />
+    </div>
+    <div class="right-side">
+      <div class="header-selectors">
+        <label for="headerBuilderType">Builder:</label>
+        <select id="headerBuilderType" [value]="selectedBuilderType()" (change)="onBuilderTypeChange($event)">
+          @for (bt of builderTypes; track bt.value) {
+            <option [value]="bt.value">{{ bt.label }}</option>
+          }
+        </select>
+
+        <label for="headerBuilderLanguage">UI language:</label>
+        <select id="headerBuilderLanguage" [value]="selectedBuilderLanguage()" (change)="onBuilderLanguageChange($event)">
+          @for (lang of uiLanguages; track lang.value) {
+            <option [value]="lang.value">{{ lang.label }}</option>
+          }
+        </select>
+        <button class="header-co-editing-btn"
+          (click)="beefreeExample.toggleCoEditing()"
+          [disabled]="!beefreeExample.builderReady() || beefreeExample.isExecuting() || selectedBuilderType() === 'fileManager'"
+          [class.active]="beefreeExample.isShared()">
+          {{ beefreeExample.isShared() ? 'Stop Co-editing' : 'Co-editing' }}
+        </button>
+      </div>
+      <img src="/lockup_angular_wht.svg" alt="Angular" />
+    </div>
+  </header>
+  <div class="content">
+    <app-beefree-example #beefreeExample
+      [builderType]="selectedBuilderType()"
+      [builderLanguage]="selectedBuilderLanguage()"
+      [onNotify]="showToast" />
+  </div>
+</main>
+
+@if (toast(); as t) {
+  <div class="toast"
+    [class.visible]="toastVisible()"
+    [class.toast-success]="t.type === 'success'"
+    [class.toast-error]="t.type === 'error'"
+    [class.toast-info]="t.type === 'info'">
+    @if (t.title) {
+      <h3 [class.error-title]="t.type === 'error'">{{ t.title }}</h3>
+    }
+    <p>{{ t.message }}</p>
+  </div>
+}
+
+<router-outlet />

@@ -1,0 +1,62 @@
+{
+  "name": "@beefree.io/angular-email-builder",
+  "version": "1.0.0",
+  "description": "Angular components and service for the Beefree SDK — drag-and-drop email, page, and popup builder with collaborative editing",
+  "keywords": [
+    "angular",
+    "angular-component",
+    "beefree",
+    "beefree-sdk",
+    "email-builder",
+    "email-template",
+    "email-template-builder",
+    "email-design",
+    "email-editor",
+    "html-email",
+    "responsive-email",
+    "newsletter",
+    "page-builder",
+    "landing-page-builder",
+    "popup-builder",
+    "drag-and-drop",
+    "drag-drop-editor",
+    "visual-editor",
+    "wysiwyg",
+    "no-code",
+    "low-code",
+    "collaborative-editing",
+    "real-time-collaboration",
+    "sdk"
+  ],
+  "author": "Beefree <dev@beefree.io> (https://www.beefree.io)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeefreeSDK/angular-email-builder.git"
+  },
+  "homepage": "https://github.com/BeefreeSDK/angular-email-builder#readme",
+  "bugs": {
+    "url": "https://github.com/BeefreeSDK/angular-email-builder/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@beefree.io/sdk": "^11.2.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
